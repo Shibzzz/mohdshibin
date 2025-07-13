@@ -2,23 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>{{ page.title }} - {{ site.title }}</title>
+  <title>{{ page.title }} | {{ site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{{ site.description }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  <link href="https://fonts.googleapis.com/css2?family=Segoe+UI&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  {% include header.html %}
+  <header class="simple-header">
+    <nav class="nav-bar">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/projects' | relative_url }}">Projects</a>
+      <a href="{{ '/research' | relative_url }}">Research</a>
+    </nav>
+  </header>
 
   <main>
     {{ content }}
   </main>
-
-  <footer>
-    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
-  </footer>
 
 </body>
 </html>
