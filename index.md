@@ -45,13 +45,13 @@ title: Home
   <div class="project-card">
     <h3 class="project-title">🔐 TriCrypt Authentication System</h3>
     <p class="project-desc">A three-level authentication mechanism combining passphrases, image patterns, and gesture-based face recognition.</p>
-    <a class="project-link" href="{{ '/projects/' | relative_url }}">View Project</a>
+    <a class="project-link" href="{{'/projects/tricrypt/' | relative_url }}">View Project</a>
   </div>
 
   <div class="project-card">
     <h3 class="project-title">📶 WiFi DoS Detection</h3>
     <p class="project-desc">A final year B.Sc. project built using Python and Scapy to detect denial-of-service signals in wireless traffic.</p>
-    <a class="project-link" href="#">Read More</a>
+    <a class="project-link" href="{{ '/projects/wifi-dos/' | relative_url }}">View Project</a>
   </div>
 </section>
 
