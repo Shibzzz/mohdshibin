@@ -5,20 +5,23 @@
   <title>{{ page.title }} | {{ site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Inter:wght@400;600&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
-  <header class="simple-header">
-    <nav class="nav-bar">
+  <header>
+    <div class="header-logo">MS</div>
+    <nav>
       <a href="{{ '/' | relative_url }}">Home</a>
       <a href="{{ '/projects' | relative_url }}">Projects</a>
       <a href="{{ '/research' | relative_url }}">Research</a>
     </nav>
   </header>
-
   <main>
     {{ content }}
   </main>
-
+  <footer>
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+  </footer>
 </body>
 </html>
