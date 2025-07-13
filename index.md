@@ -3,8 +3,27 @@ layout: default
 title: Home
 ---
 
-# MOHAMMED 
-SHIBIN K
+<div class="hero-section">
+  <div class="hero-left">
+    <h1 class="hero-name">
+      <span>Mohammed</span><br>
+      <span>Shibin K</span>
+    </h1>
+    <h2 class="hero-role">Cybersecurity Student</h2>
+    <p class="hero-desc">
+      A passionate cybersecurity enthusiast focused on reverse engineering, CTFs, mobile app testing, and digital forensics. I enjoy turning complex security problems into practical solutions.
+    </p>
+    <div class="social-icons">
+      <a href="https://linkedin.com/in/yourprofile" target="_blank">🔗</a>
+      <a href="https://github.com/shibzzz" target="_blank">💻</a>
+      <a href="#contact">📧</a>
+    </div>
+  </div>
+
+  <div class="hero-right">
+    <img src="/assets/img/profile.jpg" alt="Mohammed Shibin K" class="hero-img">
+  </div>
+</div>
 <section class="reveal-on-scroll">
   <h2>👋 About Me</h2>
   <p>
