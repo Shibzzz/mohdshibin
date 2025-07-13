@@ -25,7 +25,7 @@ title: Home
   </div>
 </div>
 <section class="reveal-on-scroll">
-  <h2>👋 About Me</h2>
+  <h2> About Me</h2>
   <p>
     I'm <strong>Mohammed Shibin K</strong>, a passionate cybersecurity student focused on hands-on problem solving, tool development, and digital investigations. I enjoy exploring offensive and defensive techniques through real-world scenarios and CTFs.
   </p>
@@ -39,7 +39,7 @@ title: Home
 
 
 <section class="reveal-on-scroll">
-  <h2>🚀 Projects</h2>
+  <h2> Projects</h2>
 
   <div class="project-card">
     <h3 class="project-title">🔐 TriCrypt Authentication System</h3>
@@ -79,7 +79,7 @@ title: Home
 
 
 <section class="reveal-on-scroll">
-  <h2>🎓 Education</h2>
+  <h2> Education</h2>
   <h3>M.Sc. Cyber Security</h3>
   <p><strong>National Forensic Sciences University, Bhopal</strong><br>
   <em>2023 – 2025</em></p>
@@ -94,7 +94,7 @@ title: Home
 
 
 <section class="reveal-on-scroll">
-  <h2>📬 Contact</h2>
+  <h2> Contact</h2>
   <p>Feel free to reach out for:</p>
   <ul>
     <li>CTF collaborations</li>
