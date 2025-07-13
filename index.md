@@ -1,5 +1,6 @@
-# Welcome to My Portfolio
+# Mohammed Shibin K
 
+## About
 Hello! I'm Mohammed Shibin K, a Cyber Security Enthusiast and passionate developer. This portfolio showcases my work, skills, and interests in the field of technology.
 
 ## Sections
