@@ -4,7 +4,7 @@ title: Home
 ---
 
 <header>
-  <h1>Mohammed Shibin K</h1>
+  Mohammed Shibin K
   <p>Cybersecurity Enthusiast | CTF Player | Researcher</p>
 </header>
 
