@@ -200,3 +200,26 @@ footer {
         font-size: 2.2rem;
     }
 }
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.skill-card {
+  background: #27272a;
+  color: #a3e635;
+  font-weight: 600;
+  padding: 1rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 2px 10px #0003;
+  transition: transform 0.2s ease;
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 16px #0004;
+}
+
