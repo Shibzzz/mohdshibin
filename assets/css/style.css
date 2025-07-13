@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #18181b;
+    color: #f3f3f3;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+}
+
+header {
+    padding: 2rem 0;
+    text-align: center;
+    background: linear-gradient(90deg, #23232b 60%, #1a1a22 100%);
+    box-shadow: 0 2px 8px #0004;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    margin: 0;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #a1a1aa;
+    margin-top: 0.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1rem 0;
+}
+
+nav a {
+    color: #f3f3f3;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    transition: background 0.2s;
+}
+
+nav a:hover {
+    background: #27272a;
+}
+
+section {
+    max-width: 900px;
+    margin: 2rem auto;
+    background: #23232b;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px #0006;
+    padding: 2rem;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s, transform 0.8s;
+}
+
+section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+h2 {
+    color: #f3f3f3;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #27272a;
+    padding-bottom: 0.5rem;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+}
+
+.project-card {
+    background: #18181b;
+    border-radius: 12px;
+    padding: 1.2rem;
+    box-shadow: 0 2px 12px #0003;
+    transition: transform 0.2s;
+}
+
+.project-card:hover {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 6px 24px #0005;
+}
+
+.project-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #a3e635;
+}
+
+.project-desc {
+    color: #d4d4d8;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-link {
+    color: #38bdf8;
+    text-decoration: underline;
+    font-size: 0.95rem;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.skill {
+    background: #27272a;
+    color: #a3e635;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.contact-info {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #38bdf8;
+}
+
+@media (max-width: 600px) {
+    section {
+        padding: 1rem;
+    }
+    h2 {
+        font-size: 1.3rem;
+    }
+}

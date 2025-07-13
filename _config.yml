@@ -1,0 +1,22 @@
+title: My Jekyll Portfolio
+description: A modern portfolio showcasing my projects and skills.
+baseurl: ""
+url: "http://example.com"
+author:
+  name: "Your Name"
+  email: "your.email@example.com"
+social:
+  github: "https://github.com/yourusername"
+  linkedin: "https://linkedin.com/in/yourprofile"
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+exclude:
+  - README.md
+  - _posts/*.md
+  - _includes/*.html
+  - _layouts/*.html
+  - assets/css/style.css
