@@ -37,7 +37,6 @@ title: Home
   </p>
 </section>
 
----
 
 <section class="reveal-on-scroll">
   <h2>🚀 Projects</h2>
@@ -55,29 +54,28 @@ title: Home
   </div>
 </section>
 
----
 
 <section class="reveal-on-scroll">
   <h2>🛠️ Skills</h2>
   <div class="skills-list">
-    <span class="skill">Python</span>
-    <span class="skill">Burp Suite</span>
-    <span class="skill">Wireshark</span>
-    <span class="skill">Linux</span>
-    <span class="skill">OpenCV</span>
-    <span class="skill">Frida</span>
-    <span class="skill">ADB</span>
-    <span class="skill">Git & GitHub</span>
-    <span class="skill">Reverse Engineering</span>
-    <span class="skill">Mobile Pentesting</span>
-    <span class="skill">Autopsy</span>
-    <span class="skill">FTK Imager</span>
-    <span class="skill">SQL</span>
-    <span class="skill">Jekyll</span>
+    <span class="skill">Python</span><br>
+    <span class="skill">Burp Suite</span><br>
+    <span class="skill">Wireshark</span><br>
+    <span class="skill">Linux</span><br>
+    <span class="skill">OpenCV</span><br>
+    <span class="skill">Frida</span><br>
+    <span class="skill">ADB</span><br>
+    <span class="skill">Git & GitHub</span><br>
+    <span class="skill">Reverse Engineering</span><br>
+    <span class="skill">Mobile Pentesting</span><br>
+    <span class="skill">Autopsy</span><br>
+    <span class="skill">FTK Imager</span><br>
+    <span class="skill">SQL</span><br>
+    <span class="skill">Jekyll</span><br>
   </div>
 </section>
 
----
+
 
 <section class="reveal-on-scroll">
   <h2>🎓 Education</h2>
@@ -93,7 +91,6 @@ title: Home
   Learned: Packet analysis, Network Security, System Forensics, Encryption basics</p>
 </section>
 
----
 
 <section class="reveal-on-scroll">
   <h2>📬 Contact</h2>
@@ -110,7 +107,7 @@ title: Home
   <p><strong>💻 GitHub:</strong> <a href="https://github.com/shibzzz">github.com/shibzzz</a></p>
 </section>
 
----
+
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
