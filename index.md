@@ -3,8 +3,8 @@ layout: default
 title: Home
 ---
 
-# MOHAMMED
-# SHIBIN K
+# MOHAMMED 
+SHIBIN K
 <section class="reveal-on-scroll">
   <h2>👋 About Me</h2>
   <p>
