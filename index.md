@@ -57,23 +57,24 @@ title: Home
 
 <section class="reveal-on-scroll">
   <h2>🛠️ Skills</h2>
-  <div class="skills-list">
-    <span class="skill-card">Python</span><br>
-    <span class="skill-card">Burp Suite</span><br>
-    <span class="skill-card">Wireshark</span><br>
-    <span class="skill-card">Linux</span><br>
-    <span class="skill-card">OpenCV</span><br>
-    <span class="skill-card">Frida</span><br>
-    <span class="skill-card">ADB</span><br>
-    <span class="skill-card">Git & GitHub</span><br>
-    <span class="skill-card">Reverse Engineering</span><br>
-    <span class="skill-card">Mobile Pentesting</span><br>
-    <span class="skill-card">Autopsy</span><br>
-    <span class="skill-card">FTK Imager</span><br>
-    <span class="skill-card">SQL</span><br>
-    <span class="skill-card">Jekyll</span><br>
+  <div class="skills-grid">
+    <div class="skill-card">Python</div>
+    <div class="skill-card">Burp Suite</div>
+    <div class="skill-card">Wireshark</div>
+    <div class="skill-card">Linux</div>
+    <div class="skill-card">OpenCV</div>
+    <div class="skill-card">Frida</div>
+    <div class="skill-card">ADB</div>
+    <div class="skill-card">Git & GitHub</div>
+    <div class="skill-card">Reverse Engineering</div>
+    <div class="skill-card">Mobile Pentesting</div>
+    <div class="skill-card">Autopsy</div>
+    <div class="skill-card">FTK Imager</div>
+    <div class="skill-card">SQL</div>
+    <div class="skill-card">Jekyll</div>
   </div>
 </section>
+
 
 
 
