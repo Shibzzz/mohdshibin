@@ -13,7 +13,7 @@ permalink: /projects/
     <p class="project-desc">
       A multi-level authentication mechanism combining secure passwords, image-based puzzle matching, and gesture-based face recognition for highly sensitive applications.
     </p>
-    <a class="project-link" href="#">View Project</a>
+    <a class="project-link" href="{{ '/projects/tricrypt/' | relative_url }}">View Project</a>
   </div>
 
   <div class="project-card">
@@ -21,7 +21,7 @@ permalink: /projects/
     <p class="project-desc">
       Built using Python and Scapy, this tool identifies denial-of-service attempts on WiFi networks and alerts users about malicious packets.
     </p>
-    <a class="project-link" href="#">Read More</a>
+    <a class="project-link" href="{{ '/projects/wifi-dos/' | relative_url }}">View Project</a>
   </div>
 
   <div class="project-card">
