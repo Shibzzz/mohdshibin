@@ -45,7 +45,7 @@ title: Home
   <div class="project-card">
     <h3 class="project-title">🔐 TriCrypt Authentication System</h3>
     <p class="project-desc">A three-level authentication mechanism combining passphrases, image patterns, and gesture-based face recognition.</p>
-    <a class="project-link" href="#">View Project</a>
+    <a class="project-link" href="/projects.md">View Project</a>
   </div>
 
   <div class="project-card">
