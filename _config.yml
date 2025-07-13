@@ -16,7 +16,4 @@ plugins:
   - jekyll-sitemap
 exclude:
   - README.md
-  - _posts/*.md
-  - _includes/*.html
-  - _layouts/*.html
-  - assets/css/style.css
+
