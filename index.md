@@ -14,9 +14,9 @@ title: Home
       A passionate cybersecurity enthusiast focused on reverse engineering, CTFs, mobile app testing, and digital forensics. I enjoy turning complex security problems into practical solutions.
     </p>
     <div class="social-icons">
-      <a href="https://linkedin.com/in/yourprofile" target="_blank">🔗</a>
+      <a href="https://www.linkedin.com/in/shibin-k-ba3095205/" target="_blank">🔗</a>
       <a href="https://github.com/shibzzz" target="_blank">💻</a>
-      <a href="#contact">📧</a>
+      <a href="mohdshibin.k@gmail.com">📧</a>
     </div>
   </div>
 
