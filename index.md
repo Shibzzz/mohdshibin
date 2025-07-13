@@ -58,20 +58,20 @@ title: Home
 <section class="reveal-on-scroll">
   <h2>🛠️ Skills</h2>
   <div class="skills-list">
-    <span class="skill">Python</span><br>
-    <span class="skill">Burp Suite</span><br>
-    <span class="skill">Wireshark</span><br>
-    <span class="skill">Linux</span><br>
-    <span class="skill">OpenCV</span><br>
-    <span class="skill">Frida</span><br>
-    <span class="skill">ADB</span><br>
-    <span class="skill">Git & GitHub</span><br>
-    <span class="skill">Reverse Engineering</span><br>
-    <span class="skill">Mobile Pentesting</span><br>
-    <span class="skill">Autopsy</span><br>
-    <span class="skill">FTK Imager</span><br>
-    <span class="skill">SQL</span><br>
-    <span class="skill">Jekyll</span><br>
+    <span class="skill-card">Python</span><br>
+    <span class="skill-card">Burp Suite</span><br>
+    <span class="skill-card">Wireshark</span><br>
+    <span class="skill-card">Linux</span><br>
+    <span class="skill-card">OpenCV</span><br>
+    <span class="skill-card">Frida</span><br>
+    <span class="skill-card">ADB</span><br>
+    <span class="skill-card">Git & GitHub</span><br>
+    <span class="skill-card">Reverse Engineering</span><br>
+    <span class="skill-card">Mobile Pentesting</span><br>
+    <span class="skill-card">Autopsy</span><br>
+    <span class="skill-card">FTK Imager</span><br>
+    <span class="skill-card">SQL</span><br>
+    <span class="skill-card">Jekyll</span><br>
   </div>
 </section>
 
