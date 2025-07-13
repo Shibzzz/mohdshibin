@@ -127,7 +127,66 @@ document.addEventListener("DOMContentLoaded", function () {
   revealOnScroll();
 });
 </script>
+<style>
+/* Layout grid for top hero section */
+.hero-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+.hero-left {
+  padding-left: 2rem;
+}
+.hero-name {
+  font-size: 3.5rem;
+  line-height: 1.1;
+  margin: 0;
+}
+.hero-role {
+  font-size: 1.5rem;
+  color: #a1a1aa;
+  margin: 0.5rem 0;
+}
+.hero-desc {
+  font-size: 1.1rem;
+  color: #d4d4d8;
+  max-width: 90%;
+}
+.social-icons a {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+.hero-right {
+  text-align: right;
+}
+.hero-img {
+  width: 300px;
+  border-radius: 12px;
+  filter: grayscale(100%);
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
 
+/* Responsive behavior */
+@media (max-width: 768px) {
+  .hero-section {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .hero-left {
+    padding-left: 0;
+  }
+  .hero-right {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .hero-img {
+    width: 70%;
+  }
+}
+</style>
 <style>
 .reveal-on-scroll {
   opacity: 0;
